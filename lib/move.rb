@@ -7,3 +7,11 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+
+def input_to_index(input)
+  name_one = input.to_i
+  name_two = name_one - 1
+  return name_two
+end
+
+input_to_index(5)
